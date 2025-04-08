@@ -4,7 +4,7 @@ title: purpl3bl0g
 permalink: /
 ---
 
-<h1 style="text-align: center;">🐾 Bienvenid@ a purpl3bl0g</h1>
+<h1 class="typing-title">🐾 Bienvenid@ a purpl3bl0g</h1>
 
 <pre style="text-align: center; color: #a64ac9; font-weight: bold;">
      |\__/,|   (`\
@@ -52,6 +52,27 @@ permalink: /
 </div>
 
 <style>
+.typing-title {
+  width: 22ch;
+  animation: typing 3s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #a64ac9;
+  color: #a64ac9;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 22ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
 .home-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
