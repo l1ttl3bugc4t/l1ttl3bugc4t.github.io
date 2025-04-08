@@ -53,7 +53,7 @@ permalink: /
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/contact" class="contact-btn">📬 Contáctame</a>
+  <a href="/contact" class="contact-btn">📬 Contáctame</a> <br>
 </div>
 
 <style>
