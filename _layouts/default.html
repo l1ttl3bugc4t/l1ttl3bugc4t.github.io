@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} | purpl3bl0g</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/stars-background.css">
 </head>
 <body>
   <div class="stars"></div>
+
   <header>
     <h1>purpl3bl0g</h1>
     <p>🐾 Bienvenid@ al mundo de l1ttl3bugc4t 🐾</p>
   </header>
   <nav>
-    <a href="{{ '/' | relative_url }}">Bienvenid@</a>
-    <a href="{{ '/about/' | relative_url }}">Acerca de mí</a>
-    <a href="{{ '/blog/' | relative_url }}">Blog</a> 
-    <a href="{{ '/certs/' | relative_url }}">Certificaciones</a>
-    <a href="{{ '/galeria/' | relative_url }}">Galería Fotos</a>
-    <a href="{{ '/consola/' | relative_url }}">Terminal</a>
-    <a href="{{ '/lab/' | relative_url }}">Hacker tools</a>
-    <a href="{{ '/contact/' | relative_url }}">Contacto</a>
-
+    <a href="/">Inicio</a>
+    <a href="/about">Acerca de mí</a>
+    <a href="/blog">Blog</a>
+    <a href="/certs">Certificaciones</a>
+    <a href="/galeria">Galería Fotos</a>
+    <a href="/lab">Laboratorio</a>
+    <a href="/consola">Consola</a>
+    <a href="/contact">Contacto</a>
   </nav>
   <section>
     {{ content }}
