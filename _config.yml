@@ -1,0 +1,7 @@
+title: purpl3bl0g
+description: "El blog hacker y felino de l1ttl3bugc4t"
+baseurl: ""
+url: "https://purpl3bl0g.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
