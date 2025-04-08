@@ -6,7 +6,6 @@
   <title>{{ page.title }} | purpl3bl0g</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/sidebar-toggle-button.css">
   <style>
     body {
       margin: 0;
@@ -113,7 +112,11 @@
     const sidebar = document.getElementById('sidebar');
 
     toggleBtn.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+      sidebar.classList.toggle('show');
+    } else {
       sidebar.classList.toggle('collapsed');
+    }
     });
   </script>
 </body>
