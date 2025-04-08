@@ -3,9 +3,6 @@ layout: default
 title: purpl3bl0g
 permalink: /
 ---
-
-<h2 class="typing-title">🐾 Bienvenid@ a purpl3bl0g</h2>
-
 <div class="welcome-wrapper">
 <pre style="text-align: center; color: #a64ac9; font-weight: bold;">
      |\__/,|   (`\
