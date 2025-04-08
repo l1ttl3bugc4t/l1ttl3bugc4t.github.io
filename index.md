@@ -111,4 +111,31 @@ permalink: /
 .contact-btn:hover {
   background: #5a189a;
 }
+
+/* Fade-in animación para tarjetas */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.home-card {
+  animation: fadeIn 1s ease forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(166, 74, 201, 0.6);
+}
+
+/* Glow pulsante en botón de contacto */
+.contact-btn {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #a64ac9; }
+  100% { box-shadow: 0 0 20px #f72585; }
+}
 </style>
+
