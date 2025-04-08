@@ -4,13 +4,14 @@ title: Consola
 permalink: /consola/
 ---
 
-<h2>🖥️ Consola Interactiva</h2>
-<p>Escribe comandos estilo UNIX para descubrir secretos y gatitos ocultos 🐾</p>
+## 🖥️ Consola Interactiva
+
+Escribe comandos estilo UNIX para descubrir secretos y gatitos ocultos 🐾
 
 <div id="terminal">
   <div id="terminal-output"></div>
   <div class="input-line">
-    <span>$</span><input id="terminal-input" type="text" autofocus autocomplete="off" />
+    <span style="color: #0f0;">$</span><input id="terminal-input" type="text" autofocus autocomplete="off" />
   </div>
 </div>
 
@@ -29,23 +30,27 @@ permalink: /consola/
   overflow-y: auto;
   box-shadow: 0 0 10px rgba(166, 74, 201, 0.5);
 }
-.input-line {{
+.input-line {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin-top: 1rem;
-}}
-#terminal-input {{
+}
+#terminal-input {
   background: transparent;
   border: none;
   color: #0f0;
   outline: none;
-  width: 100%;
   font-family: inherit;
-  font-size: 1rem;
-}}
-.command, .response {{
+  font-size: 0.95rem;
+  width: 100%;
+  max-width: 600px;
+  padding: 0.2rem 0.3rem;
+  border-bottom: 1px solid #0f0;
+  border-radius: 0;
+}
+.command, .response {
   margin-top: 0.5rem;
   white-space: pre-wrap;
-}}
+}
 </style>
