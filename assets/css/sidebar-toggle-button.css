@@ -1,0 +1,13 @@
+#toggle-btn {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  background-color: #111;
+  color: #0f0;
+  border: 2px solid #0f0;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+  z-index: 1100;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #0f0;
+}
