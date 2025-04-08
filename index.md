@@ -16,8 +16,6 @@ permalink: /
   Este es mi rincón en la galaxia cibernética donde comparto ideas, scripts, historias y maullidos digitales.
 </p>
 
-<hr>
-
 <div class="home-grid">
   <div class="home-card">
     <h3>📖 Blog</h3>
