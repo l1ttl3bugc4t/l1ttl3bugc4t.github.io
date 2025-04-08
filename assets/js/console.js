@@ -20,7 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
       output.appendChild(line);
 
       let response = {
-"whoami": "l1ttl3bugc4t", "meow": "🐱 acceso autorizado, humano", "ls": "certs/  galeria/  hack.txt  catnip.sh", "sudo hug l1ttl3bugc4t": "💜 hug granted", "purpl3bl0g": "https://l1ttl3bugc4t.github.io", "clear": "[pantalla limpia]", "banner": "🐾 Bienvenido a la consola secreta de l1ttl3bugc4t", "fortune": "Los gatos saben todos tus secretos... y los protegen.", "cat secret.txt": "🐈‍⬛: No hay mejor shell que un lugar cálido para dormir.", "help": "Comandos disponibles: whoami, meow, ls, hug, clear, banner, fortune, cat, help", "exit": "Saliendo... 🐾"
+        "whoami": "l1ttl3bugc4t",
+        "meow": "🐱 acceso autorizado, humano",
+        "ls": "certs/  galeria/  hack.txt  catnip.sh",
+        "sudo hug l1ttl3bugc4t": "💜 hug granted",
+        "purpl3bl0g": "https://l1ttl3bugc4t.github.io",
+        "clear": "[pantalla limpia]",
+        "banner": "🐾 Bienvenido a la consola secreta de l1ttl3bugc4t",
+        "fortune": "Los gatos saben todos tus secretos... y los protegen.",
+        "cat secret.txt": "🐈‍⬛: No hay mejor shell que un lugar cálido para dormir.",
+        "help": "Comandos disponibles: whoami, meow, ls, hug, clear, banner, fortune, cat, help",
+        "exit": "Saliendo... 🐾"
       }[command] || "Comando no reconocido 😿";
 
       printResponse(response);
