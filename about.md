@@ -4,5 +4,8 @@ title: Acerca de mí
 permalink: /about/
 ---
 
-Hola, soy <strong>l1ttl3bugc4t</strong> 🐱✨<br>
-Amo los gatos, el hacking ético, y el color morado. Este blog es un espacio para compartir conocimiento, proyectos y aventuras cibernéticas.
+## 👩‍💻 Acerca de mí
+
+¡Hola! Soy **l1ttl3bugc4t** 🐱💻  
+Amo el hacking ético, el color morado y los gatos.  
+Este blog es mi rincón para compartir proyectos, reflexiones, aventuras y comunidad.

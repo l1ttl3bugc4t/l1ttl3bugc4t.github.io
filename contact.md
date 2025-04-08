@@ -4,6 +4,8 @@ title: Contacto
 permalink: /contact/
 ---
 
+## 📬 Contacto
+
 ¿Quieres escribirme? Llena este formulario:
 
 <form action="https://formspree.io/f/tu-form-id" method="POST">
