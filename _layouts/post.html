@@ -1,8 +1,26 @@
 ---
 layout: default
 ---
-<article>
+
+<article class="post">
   <h2>{{ page.title }}</h2>
-  <p><em>{{ page.date | date: '%B %d, %Y' }}</em></p>
-  {{ content }}
+  <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+  <div class="content">
+    {{ content }}
+  </div>
 </article>
+
+<style>
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.post h2 {
+  color: #a64ac9;
+  font-size: 1.8rem;
+}
+.post .content {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+</style>
