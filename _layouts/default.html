@@ -126,3 +126,33 @@
   </script>
 </body>
 </html>
+
+<style>
+  #topbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+  }
+
+  #topbar img {
+    height: 40px;
+    margin-left: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    #topbar {
+      justify-content: center;
+    }
+
+    #toggle-btn {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+    }
+
+    #topbar img {
+      margin-left: 0;
+    }
+  }
+</style>
