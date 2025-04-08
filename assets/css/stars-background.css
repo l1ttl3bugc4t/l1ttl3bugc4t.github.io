@@ -14,29 +14,27 @@ html, body {
   height: 100%;
   overflow: hidden;
   z-index: -1;
+  pointer-events: none;
 }
 
-.stars::after {
+.stars::before {
   content: "";
   position: absolute;
-  width: 1px;
-  height: 1px;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
   background: transparent;
   box-shadow:
-    20px 20px white,
-    60px 60px white,
-    100px 100px white,
-    200px 50px white,
-    300px 150px white,
-    400px 250px white,
-    500px 300px white,
-    600px 80px white,
-    700px 200px white,
-    800px 120px white;
-  animation: starsScroll 100s linear infinite;
-}
-
-@keyframes starsScroll {
-  from { transform: translateY(0); }
-  to { transform: translateY(-200px); }
+    10px 10px white,
+    50px 50px white,
+    90px 90px white,
+    130px 130px white,
+    170px 170px white,
+    210px 210px white,
+    250px 250px white,
+    290px 290px white,
+    330px 330px white,
+    370px 370px white;
+  animation: none;
 }
