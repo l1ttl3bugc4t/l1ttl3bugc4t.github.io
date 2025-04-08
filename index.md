@@ -5,7 +5,7 @@ permalink: /
 ---
 <div class="welcome-wrapper">
 <pre style="text-align: center; color: #a64ac9; font-weight: bold;">
-        ／ﾌﾌ 　　　　　 　　 　ム｀ヽ
+   ／ﾌﾌ 　　　　　 　　 　ム｀ヽ
   / ノ)　　 ∧　∧　　　　）　ヽ
  / ｜　　(´・ω・`)ノ⌒（ゝ._,ノ
 /　ﾉ⌒7⌒ヽーく　 ＼　　／
