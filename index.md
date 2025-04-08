@@ -53,7 +53,7 @@ permalink: /
 
 <style>
 .typing-title {
-  width: 22ch;
+  width: 30ch;
   animation: typing 3s steps(30), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
