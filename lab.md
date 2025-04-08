@@ -29,7 +29,7 @@ Aquí encontrarás una colección de mis scripts, herramientas y experimentos en
   </div>
   <div class="lab-card">
     <img src="/assets/img/lab/4.png" alt="pentest_tools">
-    <h3>herramientas_pentest_windows_web</h3>
+    <h3>pentest_windows_web</h3>
     <p>Compilado útil de herramientas ofensivas para Windows y aplicaciones web.</p>
     <a href="https://github.com/l1ttl3bugc4t/purpl35p4c3/tree/main/herramientas_pentest_windows_web" target="_blank">Ver en GitHub</a>
   </div>
