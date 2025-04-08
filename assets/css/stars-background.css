@@ -1,8 +1,8 @@
 html, body {
   background: #0e0e1a;
-  overflow: hidden;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -12,29 +12,21 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  z-index: -1;
   pointer-events: none;
+  z-index: -1;
 }
 
-.stars::before {
-  content: "";
+.stars div {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 2px;
   height: 2px;
-  background: transparent;
-  box-shadow:
-    10px 10px white,
-    50px 50px white,
-    90px 90px white,
-    130px 130px white,
-    170px 170px white,
-    210px 210px white,
-    250px 250px white,
-    290px 290px white,
-    330px 330px white,
-    370px 370px white;
-  animation: none;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 2s infinite ease-in-out alternate;
+}
+
+@keyframes twinkle {
+  from { opacity: 0.2; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1.2); }
 }
