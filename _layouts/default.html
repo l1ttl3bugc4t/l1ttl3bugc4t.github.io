@@ -6,84 +6,82 @@
   <title>{{ page.title }} | purpl3bl0g</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Share Tech Mono', monospace;
-      background-color: #0e0e1a;
-      color: #f8f8f8;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem;
-      background-color: #111;
-      flex-wrap: wrap;
-    }
-
-    header img {
-      height: 40px;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-    }
-
-    nav a {
-      color: #0f0;
-      text-decoration: none;
-      padding: 0.4rem 0.8rem;
-      background: #220033;
-      border-radius: 8px;
-    }
-
-    nav a.active,
-    nav a:hover {
-      background-color: #a64ac9;
-      color: #fff;
-    }
-
-    main {
-      padding: 1.5rem;
-    }
-
-    @media screen and (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      nav {
-        justify-content: center;
-      }
-
-      header img {
-        margin-bottom: 1rem;
-      }
-    }
-  </style>
 </head>
 <body>
+  <canvas id="starfield"></canvas>
+
   <header>
-    <img src="/assets/img/logo_purpl3bl0g.png" alt="purpl3bl0g logo">
-    <nav>
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Inicio</a>
-      <a href="/about" class="{% if page.url contains '/about' %}active{% endif %}">Acerca</a>
-      <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
-      <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">Certificaciones</a>
-      <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">Galería</a>
-      <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">Laboratorio</a>
-      <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">Consola</a>
-      <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">Contacto</a>
-    </nav>
+    <h1>purpl3bl0g</h1>
+    <p>🐾 Bienvenid@ al mundo de l1ttl3bugc4t 🐾</p>
   </header>
-  <main>
+
+  <nav>
+    <a href="/" class="{% if page.url == '/' %}active{% endif %}">Inicio</a>
+    <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">Acerca de mí</a>
+    <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
+    <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">Certificaciones</a>
+    <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">Galería Fotos</a>
+    <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">Laboratorio</a>
+    <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">Consola</a>
+    <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">Contacto</a>
+  </nav>
+
+  <section>
     {{ content }}
-  </main>
+  </section>
+
+  <script>
+    const canvas = document.getElementById("starfield");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+
+    let stars = Array.from({ length: 100 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 1.5 + 0.5,
+      alpha: Math.random(),
+      speed: Math.random() * 0.2 + 0.05,
+    }));
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      stars.forEach(s => {
+        s.y += s.speed;
+        if (s.y > canvas.height) s.y = 0;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.size, 0, 2 * Math.PI);
+        ctx.fillStyle = `rgba(255,255,255,${s.alpha})`;
+        ctx.fill();
+      });
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+
+  <style>
+    #starfield {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      background: #0e0e1a;
+    }
+
+    nav a.active {
+      background-color: #a64ac9;
+      color: #fff;
+      border-radius: 8px;
+      padding: 0.3rem 0.8rem;
+      box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+      font-weight: bold;
+    }
+  </style>
 </body>
 </html>
