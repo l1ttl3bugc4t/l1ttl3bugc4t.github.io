@@ -5,13 +5,19 @@ permalink: /
 ---
 <div class="welcome-wrapper">
 <pre style="text-align: center; color: #a64ac9; font-weight: bold;">
-     |\__/,|   (`\
-   _.|o o  |_   ) )
--(((---(((--------
+        ／ﾌﾌ 　　　　　 　　 　ム｀ヽ
+  / ノ)　　 ∧　∧　　　　）　ヽ
+ / ｜　　(´・ω・`)ノ⌒（ゝ._,ノ
+/　ﾉ⌒7⌒ヽーく　 ＼　　／
+丶＿ ノ　　 ノ､　　|　/
+　　 `ヽ `ー-'_人`ー'ノ
+　　　 丶 ￣ _人'彡ﾉ
+　　　　　＞　｀⌒´
 </pre>
 </div>
 
 <p style="text-align: center;">
+  🐾 ~ purpl3bl0g loaded... executing curiosity.exe ~ 💻<br>
   Soy <strong>l1ttl3bugc4t</strong> — hacker altamente felina, amante del color morado y red teamer.<br>
   ¡Bienvenid@ a purpl3bl0g! Un lugar donde los scripts maúllan, los gatos hackean y el color morado lo invade todo. 🐱💻<br>
   Aquí encontrarás:<br>
