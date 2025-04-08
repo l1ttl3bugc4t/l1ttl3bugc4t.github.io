@@ -1,8 +1,3 @@
-<header id="topbar" style="display: flex; align-items: center; padding: 1rem;">
-  <button id="toggle-btn">☰</button>
-  <img src="/assets/img/logo_purpl3bl0g.png" alt="purpl3bl0g logo" style="height: 40px; margin-left: 1rem;">
-</header>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,142 +12,78 @@
       font-family: 'Share Tech Mono', monospace;
       background-color: #0e0e1a;
       color: #f8f8f8;
-      display: flex;
     }
 
-    #sidebar {
-      width: 250px;
-      min-height: 100vh;
-      background-color: #111;
-      padding-top: 1rem;
-      position: fixed;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      transition: transform 0.3s ease-in-out;
-      z-index: 1000;
-    }
-
-    #sidebar.collapsed {
-      transform: translateX(-100%);
-    }
-
-    #sidebar nav {
-      display: flex;
-      flex-direction: column;
-      padding-left: 1rem;
-    }
-
-    #sidebar a {
-      color: #0f0;
-      text-decoration: none;
-      padding: 0.5rem 0;
+    header {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      justify-content: space-between;
+      padding: 1rem;
+      background-color: #111;
+      flex-wrap: wrap;
     }
 
-    #sidebar a:hover, #sidebar a.active {
-      color: #f72585;
+    header img {
+      height: 40px;
     }
 
-    #toggle-btn {
-      position: fixed;
-      left: 10px;
-      top: 10px;
-      background-color: #1c1c2b;
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    nav a {
       color: #0f0;
-      border: 1px solid #0f0;
-      padding: 0.3rem 0.6rem;
-      cursor: pointer;
-      z-index: 1100;
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      background: #220033;
+      border-radius: 8px;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background-color: #a64ac9;
+      color: #fff;
     }
 
     main {
-      margin-left: 250px;
-      padding: 1rem;
-      flex-grow: 1;
-    }
-
-    .icon {
-      width: 16px;
-      height: 16px;
+      padding: 1.5rem;
     }
 
     @media screen and (max-width: 768px) {
-      #sidebar {
-        transform: translateX(-100%);
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       }
 
-      #sidebar.show {
-        transform: translateX(0);
+      nav {
+        justify-content: center;
       }
 
-      main {
-        margin-left: 0;
+      header img {
+        margin-bottom: 1rem;
       }
     }
   </style>
 </head>
 <body>
-  
-  <aside id="sidebar">
+  <header>
+    <img src="/assets/img/logo_purpl3bl0g.png" alt="purpl3bl0g logo">
     <nav>
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}">🏠 Inicio</a>
-      <a href="/about" class="{% if page.url contains '/about' %}active{% endif %}">😺 Acerca</a>
-      <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">📖 Blog</a>
-      <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">🏅 Certs</a>
-      <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">📸 Galería</a>
-      <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">🧪 Lab</a>
-      <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">🖥️ Consola</a>
-      <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">📬 Contacto</a>
+      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Inicio</a>
+      <a href="/about" class="{% if page.url contains '/about' %}active{% endif %}">Acerca</a>
+      <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
+      <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">Certificaciones</a>
+      <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">Galería</a>
+      <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">Laboratorio</a>
+      <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">Consola</a>
+      <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">Contacto</a>
     </nav>
-  </aside>
+  </header>
   <main>
     {{ content }}
   </main>
-
-  <script>
-    const toggleBtn = document.getElementById('toggle-btn');
-    const sidebar = document.getElementById('sidebar');
-
-    toggleBtn.addEventListener('click', () => {
-      if (window.innerWidth <= 768) {
-      sidebar.classList.toggle('show');
-    } else {
-      sidebar.classList.toggle('collapsed');
-    }
-    });
-  </script>
 </body>
 </html>
-
-<style>
-  #topbar {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    background-color: transparent;
-  }
-
-  #topbar img {
-    height: 40px;
-    margin-left: 1rem;
-  }
-
-  @media (max-width: 768px) {
-    #topbar {
-      justify-content: center;
-    }
-
-    #toggle-btn {
-      position: absolute;
-      left: 1rem;
-      top: 1rem;
-    }
-
-    #topbar img {
-      margin-left: 0;
-    }
-  }
-</style>
