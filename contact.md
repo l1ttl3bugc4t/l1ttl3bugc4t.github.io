@@ -8,7 +8,7 @@ permalink: /contact/
 
 ¿Quieres escribirme? Llena este formulario:
 
-<form action="https://formspree.io/f/tu-form-id" method="POST">
+<form action="https://formspree.io/f/xwplwlrd" method="POST">
   <input type="text" name="name" placeholder="Tu nombre" required />
   <input type="email" name="email" placeholder="Tu correo" required />
   <textarea name="message" rows="4" placeholder="Tu mensaje" required></textarea>
