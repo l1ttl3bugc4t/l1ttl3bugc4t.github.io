@@ -6,82 +6,114 @@
   <title>{{ page.title }} | purpl3bl0g</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <canvas id="starfield"></canvas>
-
-  <header>
-    <h1>purpl3bl0g</h1>
-    <p>🐾 Bienvenid@ al mundo de l1ttl3bugc4t 🐾</p>
-  </header>
-
-  <nav>
-    <a href="/" class="{% if page.url == '/' %}active{% endif %}">Inicio</a>
-    <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">Acerca de mí</a>
-    <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
-    <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">Certificaciones</a>
-    <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">Galería Fotos</a>
-    <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">Laboratorio</a>
-    <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">Consola</a>
-    <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">Contacto</a>
-  </nav>
-
-  <section>
-    {{ content }}
-  </section>
-
-  <script>
-    const canvas = document.getElementById("starfield");
-    const ctx = canvas.getContext("2d");
-
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
-    window.addEventListener("resize", resizeCanvas);
-    resizeCanvas();
-
-    let stars = Array.from({ length: 100 }, () => ({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: Math.random() * 1.5 + 0.5,
-      alpha: Math.random(),
-      speed: Math.random() * 0.2 + 0.05,
-    }));
-
-    function animate() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      stars.forEach(s => {
-        s.y += s.speed;
-        if (s.y > canvas.height) s.y = 0;
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.size, 0, 2 * Math.PI);
-        ctx.fillStyle = `rgba(255,255,255,${s.alpha})`;
-        ctx.fill();
-      });
-      requestAnimationFrame(animate);
-    }
-    animate();
-  </script>
-
   <style>
-    #starfield {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: -1;
-      background: #0e0e1a;
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0e0e1a;
+      color: #f8f8f8;
+      display: flex;
     }
 
-    nav a.active {
-      background-color: #a64ac9;
-      color: #fff;
-      border-radius: 8px;
-      padding: 0.3rem 0.8rem;
-      box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
-      font-weight: bold;
+    #sidebar {
+      width: 250px;
+      min-height: 100vh;
+      background-color: #111;
+      padding-top: 1rem;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      transition: transform 0.3s ease-in-out;
+      z-index: 1000;
+    }
+
+    #sidebar.collapsed {
+      transform: translateX(-100%);
+    }
+
+    #sidebar nav {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+    }
+
+    #sidebar a {
+      color: #0f0;
+      text-decoration: none;
+      padding: 0.5rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    #sidebar a:hover, #sidebar a.active {
+      color: #f72585;
+    }
+
+    #toggle-btn {
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      background-color: #1c1c2b;
+      color: #0f0;
+      border: 1px solid #0f0;
+      padding: 0.3rem 0.6rem;
+      cursor: pointer;
+      z-index: 1100;
+    }
+
+    main {
+      margin-left: 250px;
+      padding: 1rem;
+      flex-grow: 1;
+    }
+
+    .icon {
+      width: 16px;
+      height: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+      #sidebar {
+        transform: translateX(-100%);
+      }
+
+      #sidebar.show {
+        transform: translateX(0);
+      }
+
+      main {
+        margin-left: 0;
+      }
     }
   </style>
+</head>
+<body>
+  <button id="toggle-btn">☰</button>
+  <aside id="sidebar">
+    <nav>
+      <a href="/" class="{% if page.url == '/' %}active{% endif %}">🏠 Inicio</a>
+      <a href="/about" class="{% if page.url contains '/about' %}active{% endif %}">😺 Acerca</a>
+      <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">📖 Blog</a>
+      <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">🏅 Certs</a>
+      <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">📸 Galería</a>
+      <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">🧪 Lab</a>
+      <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">🖥️ Consola</a>
+      <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">📬 Contacto</a>
+    </nav>
+  </aside>
+  <main>
+    {{ content }}
+  </main>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-btn');
+    const sidebar = document.getElementById('sidebar');
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('collapsed');
+    });
+  </script>
 </body>
 </html>
