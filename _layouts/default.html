@@ -14,16 +14,18 @@
     <h1>purpl3bl0g</h1>
     <p>🐾 Bienvenid@ al mundo de l1ttl3bugc4t 🐾</p>
   </header>
+
   <nav>
-    <a href="/">Inicio</a>
-    <a href="/about">Acerca de mí</a>
-    <a href="/blog">Blog</a>
-    <a href="/certs">Certificaciones</a>
-    <a href="/galeria">Galería Fotos</a>
-    <a href="/lab">Laboratorio</a>
-    <a href="/consola">Consola</a>
-    <a href="/contact">Contacto</a>
+    <a href="/" class="{% if page.url == '/' %}active{% endif %}">Inicio</a>
+    <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">Acerca de mí</a>
+    <a href="/blog" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
+    <a href="/certs" class="{% if page.url contains '/certs' %}active{% endif %}">Certificaciones</a>
+    <a href="/galeria" class="{% if page.url contains '/galeria' %}active{% endif %}">Galería Fotos</a>
+    <a href="/lab" class="{% if page.url contains '/lab' %}active{% endif %}">Laboratorio</a>
+    <a href="/consola" class="{% if page.url contains '/consola' %}active{% endif %}">Consola</a>
+    <a href="/contact" class="{% if page.url contains '/contact' %}active{% endif %}">Contacto</a>
   </nav>
+
   <section>
     {{ content }}
   </section>
@@ -70,6 +72,15 @@
       height: 100vh;
       z-index: -1;
       background: #0e0e1a;
+    }
+
+    nav a.active {
+      background-color: #a64ac9;
+      color: #fff;
+      border-radius: 8px;
+      padding: 0.3rem 0.8rem;
+      box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+      font-weight: bold;
     }
   </style>
 </body>
