@@ -54,7 +54,7 @@ permalink: /
 <style>
 .typing-title {
   width: 22ch;
-  animation: typing 3s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 3s steps(26), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #a64ac9;
