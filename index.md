@@ -6,11 +6,13 @@ permalink: /
 
 <h1 class="typing-title">🐾 Bienvenid@ a purpl3bl0g</h1>
 
+<div class="welcome-wrapper">
 <pre style="text-align: center; color: #a64ac9; font-weight: bold;">
      |\__/,|   (`\
    _.|o o  |_   ) )
 -(((---(((--------
 </pre>
+</div>
 
 <p style="text-align: center;">
   Soy <strong>l1ttl3bugc4t</strong> — hacker felina, amante del color morado y exploradora de nubes ☁️.<br>
@@ -137,5 +139,16 @@ permalink: /
   0% { box-shadow: 0 0 10px #a64ac9; }
   100% { box-shadow: 0 0 20px #f72585; }
 }
-</style>
 
+.welcome-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  word-break: break-word;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.welcome-wrapper pre {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+}
+</style>
