@@ -12,8 +12,16 @@ permalink: /
 </div>
 
 <p style="text-align: center;">
-  Soy <strong>l1ttl3bugc4t</strong> — hacker felina, amante del color morado y exploradora de nubes ☁️.<br>
-  Este es mi rincón en la galaxia cibernética donde comparto ideas, scripts, historias y maullidos digitales.
+  Soy <strong>l1ttl3bugc4t</strong> — hacker altamente felina, amante del color morado y red teamer.<br>
+  ¡Bienvenid@ a purpl3bl0g! Un lugar donde los scripts maúllan, los gatos hackean y el color morado lo invade todo. 🐱💻<br>
+  Aquí encontrarás:<br>
+     ✨ Aventuras de hacking ético con flow y estilo<br>
+     ☁️ Reflexiones tech entre nubes, terminales y ronroneos<br>
+     🔐 Certificaciones que demuestran que l1ttl3bugc4t no solo rasguña... ¡también defiende!<br>
+     📸 Galerías con eventos, proyectos, gatitos y más magia visual<br>
+     🧪 Un laboratorio donde los experimentos sí salen... ¡o al menos brillan en neón!<br>
+     Si amas la ciberseguridad, los gatos y el morado tanto como el código bien indentado, estás en casa.<br>
+     Aquí no solo se comparte conocimiento... ¡se comparte con zarpazos de ternura y líneas de comando!<br>
 </p>
 
 <div class="home-grid">
