@@ -98,3 +98,10 @@ Vas a fallar (¡y bastante!), pero también vas a aprender y reírte. Y un día 
 **Firmado con orgullo:**  
 **l1ttl3bugc4t**  
 ( x_x )* ~K
+
+      |\      _,,,---,,_
+ZZZzz /,`.-'`'    -.  ;-;;,_
+     |,4-  ) )-,_. ,\ (  `'-'
+    '---''(_/--'  `-'\_)
+     ~ Your friendly cybercat ~
+
