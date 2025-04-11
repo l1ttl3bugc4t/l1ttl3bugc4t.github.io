@@ -99,6 +99,8 @@ Vas a fallar (¡y bastante!), pero también vas a aprender y reírte. Y un día 
 **l1ttl3bugc4t**  
 ( x_x )* ~K
 
+---
+
       |\      _,,,---,,_
 ZZZzz /,`.-'`'    -.  ;-;;,_
      |,4-  ) )-,_. ,\ (  `'-'
