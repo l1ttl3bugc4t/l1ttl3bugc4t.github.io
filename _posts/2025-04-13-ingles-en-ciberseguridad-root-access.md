@@ -10,21 +10,21 @@ tags: [ciberseguridad, inglés, beginners, hacking, aprendizaje, l1ttl3bugc4t]
 
 Cuando uno empieza a aprender sobre ciberseguridad, es normal sentirse medio perdido entre comandos, conceptos raros… ¡y toneladas de contenido en inglés!
 
-Pero aunque al principio parezca una barrera, la verdad es que el inglés no es solo otro idioma más: **es, quizá, una de las herramientas más poderosas que puedes desbloquear en este mundo**.
+Pero aunque al principio parezca una barrera, la verdad es que el inglés no es solo otro idioma más: **es, quizás, una de las herramientas más poderosas que puedes desbloquear en este mundo**.
 
 ---
 
 ## ¿Y por qué es tan importante?
 
-🧠 **1. Porque el conocimiento vive en inglés**  
+**1. Porque el conocimiento vive en inglés**  
 Las alertas de seguridad, los tutoriales más actualizados, los reportes de vulnerabilidades, las herramientas nuevas...  
 **Todo lo bueno llega primero (y muchas veces solo) en inglés.**
 
-🛠️ **2. Porque es el idioma de las herramientas**  
+**2. Porque es el idioma de las herramientas**  
 Si vas a usar Nmap, Burp Suite, Wireshark, Metasploit o cualquier herramienta top, vas a encontrarte con documentación, foros, errores y configuraciones en inglés.  
-Y sí... los memes técnicos también 🐱‍💻
+Y sí... los memes técnicos también. 
 
-🌍 **3. Porque la comunidad es global**  
+**3. Porque la comunidad es global**  
 La ciberseguridad no tiene fronteras. Puedes colaborar con un analista en México, un pentester en Alemania o aprender de un foro en Asia.  
 ¿El punto de encuentro entre todos? Exacto: **el inglés**.
 
@@ -52,7 +52,7 @@ Apóyate en glosarios, videos subtitulados, foros... lo que necesites.
 
 ---
 
-## 🔐 Reflexión final
+## Reflexión final
 
 En este mundo donde saber es poder, **entender inglés en ciberseguridad es como tener acceso root al conocimiento.**
 
@@ -64,5 +64,5 @@ Y si aún no lo dominas, tranqui: pregunta, equivócate, aprende… y celebra ca
 
 ---
 
-*Publicado con amor y café por*  
+*Publicado con amor y chocolate por*  
 **l1ttl3bugc4t** 🐾
