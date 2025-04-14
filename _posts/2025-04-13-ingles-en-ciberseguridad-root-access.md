@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "¿Por qué el inglés te da privilegios root en ciberseguridad?"
+title: "Ciberseguridad 101: ¿Por qué el inglés te da privilegios root?"
 date: 2025-04-13 00:00:00 +0000
 categories: [reflexión, infosec]
 tags: [ciberseguridad, inglés, beginners, hacking, aprendizaje, l1ttl3bugc4t]
 ---
-
-# Ciberseguridad 101: ¿Por qué el inglés te da privilegios root?
 
 Cuando uno empieza a aprender sobre ciberseguridad, es normal sentirse medio perdido entre comandos, conceptos raros… ¡y toneladas de contenido en inglés!
 
