@@ -25,7 +25,7 @@ Una hacker felina, curiosa y amante del color morado. Me apasiona la ciberseguri
 ### 💜 Lo que me encanta
 
 - Linux, Bash y Python  
-- Red Team y Cloud Sec  
+- Red Team y Programación  
 - Las buenas preguntas  
 - Los gatos (obvio)  
 - Todo lo morado 💜  
