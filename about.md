@@ -45,4 +45,10 @@ Y si puedo meter un gatito de por medio, mejor.
 
 ---
 
+### 🌟 QA del purpl3bl0g
+
+Compa The Cat (alias C1ph3rK4t)... El gato más hacker de todo el condado :)
+
+---
+
 > *"No hay mejor shell que un lugar cálido para dormir."* — gato anónimo
