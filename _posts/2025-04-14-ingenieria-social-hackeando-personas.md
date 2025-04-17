@@ -8,7 +8,7 @@ tags: [ingeniería social, infosec, ciberseguridad, l1ttl3bugc4t, concienciació
 
 # Ciberseguridad 101: Hackeando sin usar una sola línea de código
 
-Cuando alguien menciona ciberataques, pensamos en cosas muy intensas:  
+Cuando alguien menciona ciberataques, pensamos en cosas bien intensas:  
 💥 malware nivel película  
 💻 código que parece magia negra  
 🔥 firewalls explotados en mil pedazos
@@ -63,4 +63,44 @@ Correos/mensajes que se hacen pasar por algo real para robar tus datos o infecta
 Lo mismo, pero por llamada.  
 "Hola, soy del banco, necesito verificar tu cuenta…”
 
-💬
+💬 **Smishing**  
+Mensajes de texto con links maliciosos.  
+"¡Felicidades! Ganaste un iPhone."
+
+🧠 **Pretexting**  
+El atacante se inventa una historia para sacarte info.  
+"Soy de sistemas, pásame tu contraseña para actualizar tu cuenta."
+
+🧲 **Baiting**  
+Una USB con un nombre tipo “Fotos Fiesta Jefe” tirada estratégicamente cerca de TI.
+
+---
+
+## 🔐 ¿Por qué importa tanto?
+
+Puedes tener la infraestructura más cara del universo:  
+💎 firewalls de última generación  
+🛡️ antivirus premium  
+🧠 monitoreo 24/7
+
+Pero si **alguien hace clic donde no debe… se cae todo**.
+
+La ingeniería social es el **atajo directo al corazón de cualquier sistema**.
+
+Por eso la capacitación, las campañas de phishing interno, y crear una cultura de ciberdesconfianza saludable es igual de importante que cualquier solución técnica.
+
+---
+
+## 🧩 Reflexión final
+
+La ciberseguridad no es solo firewalls y código.  
+También es emociones, percepción y sentido común.
+
+💡 Un sistema es tan seguro como su usuario más distraído.  
+Y sí: **cualquiera puede caer.** Incluso tú, incluso yo.
+
+Así que la próxima vez que te llegue ese correo urgente…  
+🔍 respira  
+🧠 y piensa como un hacker.
+
+👾 by **l1ttl3bugc4t** ( x_x )*~K
