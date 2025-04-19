@@ -1,10 +1,10 @@
 ---
-layout: page
-title: "Tu Bitácora Hacker"
+layout: default
+title: "Bitácora Hacker"
 permalink: /bitacora-hacker/
 ---
 
-# ✍️ Tu Bitácora Hacker
+# ✍️ Bitácora Hacker
 
 Este es mi rincón para documentar lo que aprendo, lo que rompo (con ética), lo que descubro y lo que me frustra mientras avanzo en el mundo de la ciberseguridad.
 
