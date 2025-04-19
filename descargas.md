@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "CyberKit - Contenido Descargable"
 permalink: /descargas/
 ---
