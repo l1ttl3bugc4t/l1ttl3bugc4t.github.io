@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Bitácora Hacker"
 permalink: /bitacora-hacker/
 ---
