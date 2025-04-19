@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ingeniería Social: Hackeando personas sin usar una sola línea de código"
+title: "Ciberseguridad 101: Hackeando personas sin usar una sola línea de código"
 date: 2025-04-14 22:00:00 +0000
 categories: [ciberseguridad, reflexión]
 tags: [ingeniería social, infosec, ciberseguridad, l1ttl3bugc4t, concienciación]
