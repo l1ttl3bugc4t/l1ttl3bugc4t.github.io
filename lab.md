@@ -33,6 +33,14 @@ Aquí encontrarás una colección de mis scripts, herramientas y experimentos en
     <p>Compilado útil de herramientas ofensivas para Windows y aplicaciones web.</p>
     <a href="https://github.com/l1ttl3bugc4t/purpl35p4c3/tree/main/herramientas_pentest_windows_web" target="_blank">Ver en GitHub</a>
   </div>
+  <div class="lab-card">
+  <img src="https://raw.githubusercontent.com/l1ttl3bugc4t/hack_the_cat_cve_weekly/main/preview.png" alt="Hack the Cat CVE Weekly Screenshot">
+  <div class="lab-content">
+    <h3>Hack the Cat CVE Weekly</h3>
+    <p>Script automatizado que genera un reporte visual de los CVEs más relevantes de la semana. Recolecta datos desde la base del NIST y los convierte en imágenes tipo carrusel listas para redes sociales. Incluye también una versión en HTML y Markdown para blogs o newsletters.</p>
+    <a href="https://github.com/l1ttl3bugc4t/hack_the_cat_cve_weekly" class="lab-button" target="_blank">Ver proyecto</a>
+  </div>
+</div>
 </div>
 
 <style>
