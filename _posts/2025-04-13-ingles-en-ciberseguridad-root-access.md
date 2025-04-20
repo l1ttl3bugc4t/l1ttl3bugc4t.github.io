@@ -2,7 +2,7 @@
 layout: post
 title: "Ciberseguridad 101: ¿Por qué el inglés te da privilegios root?"
 date: 2025-04-13 00:00:00 +0000
-categories: [reflexión, infosec]
+categories: [reflexión, infosec, blog]
 tags: [ciberseguridad, inglés, beginners, hacking, aprendizaje, l1ttl3bugc4t]
 ---
 
