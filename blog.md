@@ -7,7 +7,8 @@ permalink: /blog/
 ## 📝 Entradas del Blog
 
 <div class="post-list">
-  {% for post in site.posts %}
+  {% assign blog_posts = site.categories.blog | sort: 'date' | reverse %}
+  {% for post in blog_posts %}
     <div class="post-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p class="meta">Publicado el {{ post.date | date: "%d/%m/%Y" }}</p>
