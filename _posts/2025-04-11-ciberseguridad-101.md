@@ -2,7 +2,7 @@
 layout: post
 title: "Ciberseguridad 101: Cómo introducirte a este maravilloso mundo sin morir en el intento"
 date: 2025-04-11 00:00:00 +0000
-categories: [hacking, infosec, guía]
+categories: [hacking, infosec, guía, blog]
 tags: [ciberseguridad, hacking, beginners, guías, l1ttl3bugc4t]
 ---
 
