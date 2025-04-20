@@ -16,7 +16,7 @@ Quería asegurarme de que la categoría funcione correctamente y el sistema de n
 ## ¿Qué aprendí hoy?
 
 - Que Jekyll no ama los acentos en los nombres de categorías.  
-- Que es mejor prevenir errores con `{% if %}` en Liquid.  
+- Que es mejor prevenir errores con <code>{% if %}</code> en Liquid.  
 - Que tener al menos un post de prueba evita errores al hacer deploy.
 
 ---
