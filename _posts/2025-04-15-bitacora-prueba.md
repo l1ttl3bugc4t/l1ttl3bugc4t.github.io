@@ -23,7 +23,6 @@ tags: [prueba, bitacora, l1ttl3bugc4t]
 <h2 style="color: #8be9fd;">✨ ¿Qué aprendí?</h2>
 <ul>
   <li>Evitar usar tildes en nombres de categorías</li>
-  <li>Que es mejor prevenir errores Liquid con condicionales <code>{% if %}</code> bien escritos</li>
   <li>Que un solo post puede salvarte el build</li>
 </ul>
 
