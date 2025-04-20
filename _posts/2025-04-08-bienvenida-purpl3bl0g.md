@@ -2,7 +2,7 @@
 layout: post
 title: "¡Bienvenid@ a purpl3bl0g!"
 date: 2025-04-08 10:00:00
-categories: [inicio, bienvenida]
+categories: [inicio, bienvenida, blog]
 ---
 
 ## 📝 Hello there :) *(General Kenobi)*
