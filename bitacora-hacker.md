@@ -11,7 +11,7 @@ Este es mi rincón para documentar lo que aprendo, lo que rompo (con ética), lo
 Aquí encontrarás entradas personales, reflexiones técnicas, logs de pruebas, avances de proyectos y pensamientos que cruzan por la mente de **l1ttl3bugc4t** en modo terminal.
 
 ---
-h2>🧭 Navegación por Logs</h2>
+## 🧭 Navegación por Logs</h2>
 
 <ul>
   {% assign logs = site.categories.bitácora | sort: 'date' | reverse %}
