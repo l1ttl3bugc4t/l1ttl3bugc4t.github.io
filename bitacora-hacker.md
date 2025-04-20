@@ -11,10 +11,11 @@ Este es mi rincón para documentar lo que aprendo, lo que rompo (con ética), lo
 Aquí encontrarás entradas personales, reflexiones técnicas, logs de pruebas, avances de proyectos y pensamientos que cruzan por la mente de **l1ttl3bugc4t** en modo terminal.
 
 ---
-## 🧭 Navegación por Logs</h2>
+
+## 🧭 Navegación por Logs
 
 <ul>
-  {% assign logs = site.categories.bitácora | sort: 'date' | reverse %}
+  {% assign logs = site.categories.bitacora | sort: 'date' | reverse %}
   {% for post in logs %}
     <li style="margin-bottom: 0.8rem;">
       <a href="{{ post.url | relative_url }}" style="font-weight: bold; text-decoration: none; color: #8be9fd;">
