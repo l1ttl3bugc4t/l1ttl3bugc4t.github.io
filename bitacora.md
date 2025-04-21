@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bitácora Hacker"
-permalink: /bitacora-hacker/
+permalink: /bitacora/
 ---
 
 <div style="max-width: 900px; margin: 2rem auto; padding: 2rem; background: #1e002f; border-radius: 15px; box-shadow: 0 0 20px rgba(140, 0, 255, 0.3); color: #fff; font-family: 'Fira Code', monospace;">
