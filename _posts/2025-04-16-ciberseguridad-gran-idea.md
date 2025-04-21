@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Ciberseguridad 101: ¿Por qué dedicarse a la ciberseguridad es una gran idea?"
 date: 2025-04-21 00:00:00 +0000
 categories: [blog]
