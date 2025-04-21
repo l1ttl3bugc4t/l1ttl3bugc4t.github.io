@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "¿Por qué dedicarse a la ciberseguridad es una gran idea?"
 date: 2025-04-16 12:00:00 +0000
 categories: [blog]
@@ -72,4 +72,4 @@ Pero si te gusta aprender, cuestionar, jugar, proteger y romper cosas para enten
 Y si aún no te sientes list@, no pasa nada. Todos empezamos así.  
 Lo importante es seguir avanzando, a tu ritmo, con tus garras, en tu consola.
 
-👾 by **l1ttl3bugc4t**
+👾 by **l1ttl3bugc4t ( x_x )**
