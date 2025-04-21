@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "¿Por qué dedicarse a la ciberseguridad es una gran idea?"
-date: 2025-04-16 12:00:00 +0000
+title: "Ciberseguridad 101: ¿Por qué dedicarse a la ciberseguridad es una gran idea?"
+date: 2025-04-21 00:00:00 +0000
 categories: [blog]
 tags: [reflexión, carrera, ciberseguridad, l1ttl3bugc4t]
 ---
 
-## 🧠 ¿Por qué dedicarse a la ciberseguridad es una gran idea?  
+## 🧠 Ciberseguridad 101: ¿Por qué dedicarse a la ciberseguridad es una gran idea?  
 **Por l1ttl3bugc4t**
 
 Cuando alguien me pregunta por qué elegí este camino, inmediatamente pienso en todos los medios de comunicación que existen gracias a los avances tecnológicos, y me pregunto:  
