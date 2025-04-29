@@ -15,18 +15,7 @@ Cada infografía está diseñada para aprender de manera rápida y divertida.
 
 <!-- Ejemplo de iframe Genially -->
 <div style="margin-bottom: 2rem;">
-  <iframe src="https://view.genially.com/ID-DE-TU-INFOGRAFIA" 
-          width="100%" 
-          height="600" 
-          frameborder="0" 
-          allowfullscreen
-          style="border-radius: 10px; box-shadow: 0 0 20px rgba(140,0,255,0.3);">
-  </iframe>
-</div>
-
-<!-- Otro iframe -->
-<div style="margin-bottom: 2rem;">
-  <iframe src="https://view.genially.com/ID-DE-OTRA-INFOGRAFIA" 
+  <iframe src="https://view.genially.com/680dbac1c87d1487606ada5b" 
           width="100%" 
           height="600" 
           frameborder="0" 
