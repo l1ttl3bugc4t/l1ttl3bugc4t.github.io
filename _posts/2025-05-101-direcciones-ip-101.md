@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: "Direcciones IP 101"
 date: 2025-05-10 00:00:00 
 categories: [ciberseguridad, redes, blog]
