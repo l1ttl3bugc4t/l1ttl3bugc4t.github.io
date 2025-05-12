@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Traceroute: Rastreando el camino galáctico de los datos"
