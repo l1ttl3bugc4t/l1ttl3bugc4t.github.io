@@ -2,7 +2,7 @@
 layout: post
 title: "Redes Informáticas 101"
 date: 2025-05-05 00:00:00 
-categories: [ciberseguridad, redes, blog]
+categories: [ciberseguridad, redes, cuaderno]
 tags: [redes, fundamentos, networking, l1ttl3bugc4t]
 ---
 
