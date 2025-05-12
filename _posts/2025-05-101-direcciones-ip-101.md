@@ -1,12 +1,13 @@
 ---
-layout: blog
+layout: post
 title: "Direcciones IP 101"
 date: 2025-05-10 00:00:00 
 categories: [ciberseguridad, redes, blog]
 tags: [redes, fundamentos, networking, ip]
+
 ---
 
-## 🛸 ¿Qué es una Dirección IP?
+## 🛸 Direcciones IP 101
 
 Una **dirección IP (Internet Protocol)** es como la dirección galáctica de un dispositivo en una red. Es un número único que permite:
 
