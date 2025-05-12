@@ -2,7 +2,7 @@
 layout: post
 title: "Direcciones IP 101"
 date: 2025-05-10 00:00:00 
-categories: [ciberseguridad, redes, blog]
+categories: [ciberseguridad, redes, cuaderno]
 tags: [redes, fundamentos, networking, ip]
 
 ---
