@@ -1,10 +1,9 @@
-
 ---
 title: "Netdiscover: Descubriendo dispositivos ocultos en tu red local"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-23"
 tags: [Hacking, Pentesting, Netdiscover, Red Team, Reconocimiento]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 A veces los dispositivos en una red no quieren ser encontrados...  
