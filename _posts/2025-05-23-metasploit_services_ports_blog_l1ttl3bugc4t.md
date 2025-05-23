@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Descubriendo puertos y servicios con Metasploit: Exploración sin salir del framework"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-23"
 tags: [Metasploit, Escaneo, Puertos, Servicios, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 ¿Sabías que no necesitas salir de Metasploit para hacer escaneos y descubrir servicios?  
