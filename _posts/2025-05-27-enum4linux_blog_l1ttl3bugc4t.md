@@ -4,7 +4,7 @@ title: "enum4linux: Enumerando sistemas Windows como una hacker felina"
 author: "l1ttl3bugc4t"
 date: "2025-05-12"
 tags: [Hacking, Pentesting, Enum4linux, SMB, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Cuando te enfrentas a un servidor Windows en la red y quieres saber todo sobre él…  
