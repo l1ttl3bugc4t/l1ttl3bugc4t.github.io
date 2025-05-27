@@ -2,7 +2,7 @@
 layout: post 
 title: "enum4linux: Enumerando sistemas Windows como una hacker felina"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-27"
 tags: [Hacking, Pentesting, Enum4linux, SMB, Red Team]
 categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
