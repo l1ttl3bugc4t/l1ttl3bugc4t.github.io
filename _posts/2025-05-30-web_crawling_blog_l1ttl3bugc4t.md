@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Web Crawling: Rastreo felino para devorar estructuras web"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [Web Crawling, Pentesting, Recolección de Información, Red Team, OSINT]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Web Crawling** es el arte (y ciencia) de recorrer un sitio web de forma automatizada para **descubrir páginas, rutas, archivos y comportamientos escondidos**.  
