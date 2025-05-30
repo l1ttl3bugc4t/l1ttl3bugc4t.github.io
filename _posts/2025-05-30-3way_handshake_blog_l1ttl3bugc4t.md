@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "3-Way Handshake: El saludo secreto de los dispositivos en la red"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [TCP, Network, 3-Way Handshake, Pentesting, Seguridad]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Antes de que dos dispositivos puedan chismear por TCP, necesitan saludarse de forma segura.  
