@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Wireshark para Pentesters: Caza de paquetes como una hacker con visión de rayos X"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [Wireshark, Network Sniffing, Análisis de Tráfico, Pentesting, Packet Capture]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Wireshark** es como un microscopio para el tráfico de red:  
