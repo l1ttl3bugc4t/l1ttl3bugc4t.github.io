@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Netcat: El cuchillo suizo del hacking en la red"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [Netcat, Hacking, Pentesting, Red Team, Escaneo, Shells, Network]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Netcat**, también conocido como `nc`, es como ese amigo que sabe hacer de todo:  
