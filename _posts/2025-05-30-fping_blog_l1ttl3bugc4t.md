@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "fping: El ping con esteroides para pentesters veloces"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [fping, Pentesting, Recolección de Información, Network Discovery, ICMP]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Cuando necesitas escanear hosts vivos **a la velocidad de un rayo**, no usas `ping`...  
