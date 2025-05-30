@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "robots.txt: El mapa secreto que los admin olvidan esconder"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [robots.txt, Recolección de Información, OSINT, Pentesting, Web Recon]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 El archivo **robots.txt** es como ese letrero que dice “No mires aquí” justo donde deberías mirar.  
