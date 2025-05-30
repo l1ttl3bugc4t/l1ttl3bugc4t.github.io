@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Consulta WHOIS desde ICANN: Espiando dominios como una hacker elegante"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-05-30"
 tags: [WHOIS, ICANN, Recolección de Información, Hacking, OSINT]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 A veces, todo empieza con un dominio. Y si quieres saber **quién está detrás de uno**, el primer paso felino es...  
