@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "OpenSSL: Tu bisturí para diseccionar conexiones seguras"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-02"
 tags: [OpenSSL, TLS, Pentesting, Cifrado, Red Team, HTTPS, Certificados]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **OpenSSL** no solo es una librería usada por miles de servicios…  
