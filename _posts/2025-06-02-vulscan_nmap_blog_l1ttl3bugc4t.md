@@ -1,8 +1,8 @@
-
 ---
+layout: post
 title: "Vulscan para Nmap: CVEs directos en tu terminal"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-02"
 tags: [Vulscan, Nmap, CVE, Vulnerabilidades, Red Team, Escaneo, NSE]
 categories: [Cuaderno, Red Team & Chill, CyberChallenges]
 ---
