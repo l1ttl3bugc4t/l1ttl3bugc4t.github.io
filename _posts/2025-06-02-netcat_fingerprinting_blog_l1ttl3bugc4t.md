@@ -1,10 +1,10 @@
-
 ---
+layout: podt
 title: "Fingerprinting con Netcat: Identificando servicios a lo hacker"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-02"
 tags: [Netcat, Fingerprinting, Pentesting, Reconocimiento, Red Team, Network Enumeration]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 ¿Sabías que con **Netcat** puedes hacer fingerprinting de servicios como todo un ninja de la red?  
