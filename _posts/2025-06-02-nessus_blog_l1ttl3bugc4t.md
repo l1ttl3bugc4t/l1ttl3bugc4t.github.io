@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Nessus: Tu radar de vulnerabilidades en la red"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-02"
 tags: [Nessus, Vulnerability Scanning, Pentesting, Red Team, Seguridad]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Nessus** es como un radar de alto poder para detectar vulnerabilidades en sistemas, servicios y redes.  
