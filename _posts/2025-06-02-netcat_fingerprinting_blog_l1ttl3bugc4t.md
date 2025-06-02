@@ -1,5 +1,5 @@
 ---
-layout: podt
+layout: post
 title: "Fingerprinting con Netcat: Identificando servicios a lo hacker"
 author: "l1ttl3bugc4t"
 date: "2025-06-02"
