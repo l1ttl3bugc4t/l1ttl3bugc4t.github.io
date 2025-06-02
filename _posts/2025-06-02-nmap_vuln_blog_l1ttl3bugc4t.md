@@ -1,10 +1,9 @@
-
 ---
 title: "Detección de vulnerabilidades con Nmap: Escaneo + Inteligencia"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-02"
 tags: [Nmap, Vulnerabilidades, Escaneo, NSE, Pentesting, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Cuando combinas el escaneo de puertos con scripts inteligentes… Nmap se transforma en un **mini escáner de vulnerabilidades** 🧠✨  
