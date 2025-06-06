@@ -1,10 +1,10 @@
-
----
+--- 
+layout: post
 title: "CeWL: Cazando palabras clave para atacar contraseñas"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [CeWL, Wordlists, Fuerza Bruta, OSINT, Pentesting, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 ¿Quieres generar wordlists 100% personalizadas a tu víctima usando su propio sitio web?  
