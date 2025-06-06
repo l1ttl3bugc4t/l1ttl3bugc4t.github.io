@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Cookies y Sesiones: El rastro dulce (y peligroso) del navegador"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [Cookies, Sesiones, Seguridad Web, Pentesting, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Las **cookies** no solo son dulces digitales 🍪, también son una de las piezas clave para mantener sesiones, rastrear usuarios y… **atacar apps web** 😼🔥
