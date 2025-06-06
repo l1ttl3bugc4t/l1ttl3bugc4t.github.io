@@ -4,7 +4,7 @@ title: "Wfuzz: Fuzzing en estéreo desde la terminal"
 author: "l1ttl3bugc4t"
 date: "2025-06-06"
 tags: [Wfuzz, Fuzzing, Pentesting, Web, Fuerza Bruta, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Wfuzz** es como una metralleta de fuzzing que dispara palabras contra parámetros web hasta que una abre la puerta 🚪💥  
