@@ -1,8 +1,8 @@
-
 ---
+layout: post 
 title: "DirBuster: Derribando puertas ocultas en la web"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [DirBuster, Fuzzing, Web Pentesting, Fuerza Bruta, Directorios, Red Team]
 categories: [Cuaderno, Red Team & Chill, CyberChallenges]
 ---
