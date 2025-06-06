@@ -1,10 +1,9 @@
-
 ---
 title: "Dirb: Explorador web discreto pero letal"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [Dirb, Fuzzing, Web Pentesting, Fuerza Bruta, Directorios, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 Cuando quieres buscar archivos y directorios ocultos **desde la terminal**, rápido y sin drama…  
