@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Website Defacement: El grafiti del mundo digital"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [Website Defacement, Pentesting, Ethical Hacking, Seguridad Web, Red Team]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Website Defacement** es como hacerle un grafiti a una página web 🖌️🌐  
