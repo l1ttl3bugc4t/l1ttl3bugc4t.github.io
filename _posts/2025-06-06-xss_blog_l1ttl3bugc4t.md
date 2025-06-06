@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "XSS: Cuando tu navegador obedece al atacante"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [XSS, Cross-Site Scripting, Seguridad Web, Pentesting, Red Team, Inyección]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **XSS (Cross-Site Scripting)** es como un hechizo maldito: haces que el navegador de la víctima ejecute código **sin que lo sepa** 😼💻💥
