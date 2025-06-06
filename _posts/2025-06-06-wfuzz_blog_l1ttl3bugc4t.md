@@ -1,8 +1,8 @@
-
 ---
+layout: post
 title: "Wfuzz: Fuzzing en estéreo desde la terminal"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-06"
 tags: [Wfuzz, Fuzzing, Pentesting, Web, Fuerza Bruta, Red Team]
 categories: [Cuaderno, Red Team & Chill, CyberChallenges]
 ---
