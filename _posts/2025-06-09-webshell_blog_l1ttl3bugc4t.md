@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Web Shells: Tu consola secreta en el servidor"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [Web Shell, Pentesting, Shell Access, Red Team, Backdoor, Seguridad Web]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Web Shells** son como tener una consola remota… pero *oculta en una página web*.  
