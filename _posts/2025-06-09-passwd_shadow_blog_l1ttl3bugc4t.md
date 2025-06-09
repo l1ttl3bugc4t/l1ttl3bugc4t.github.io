@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "/etc/passwd vs /etc/shadow: Los archivos que guardan la identidad de tu sistema"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [Linux, passwd, shadow, Red Team, Seguridad, Cuentas, Cracking]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 En todo sistema Linux existen dos archivos clave que contienen información sobre los usuarios:  
