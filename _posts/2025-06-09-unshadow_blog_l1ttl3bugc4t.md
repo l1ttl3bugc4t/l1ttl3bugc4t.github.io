@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "unshadow: El puente entre /etc/passwd y /etc/shadow"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [unshadow, Cracking, Linux, Pentesting, Red Team, Seguridad]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **unshadow** es una pequeña gran herramienta que permite combinar la información de `/etc/passwd` y `/etc/shadow` en un solo archivo entendible por herramientas de cracking como **John The Ripper** 🦷💥
