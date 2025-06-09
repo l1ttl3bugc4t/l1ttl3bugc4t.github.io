@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "sqlmap: El maestro de las inyecciones SQL"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [sqlmap, SQL Injection, Pentesting, Red Team, Seguridad Web, Herramientas]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **sqlmap** es una herramienta de código abierto que automatiza el proceso de detección y explotación de **SQL Injection** 💉📜  
