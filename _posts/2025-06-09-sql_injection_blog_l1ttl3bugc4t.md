@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "SQL Injection: Cuando las bases de datos te cuentan sus secretos"
 author: "l1ttl3bugc4t"
 date: "2025-06-09"
