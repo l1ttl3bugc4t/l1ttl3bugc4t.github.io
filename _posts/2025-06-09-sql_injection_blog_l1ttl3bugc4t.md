@@ -1,10 +1,9 @@
-
 ---
 title: "SQL Injection: Cuando las bases de datos te cuentan sus secretos"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [SQL Injection, Inyección, Pentesting, Seguridad Web, Red Team, Exploit]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **SQL Injection** (o **SQLi**) es como engañar a una base de datos para que revele sus secretos más oscuros con una simple frase maliciosa 😼📜
