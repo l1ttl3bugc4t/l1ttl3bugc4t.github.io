@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "Command Injection: Cuando un parámetro te da acceso a todo el sistema"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-09"
 tags: [Command Injection, Pentesting, Seguridad Web, Red Team, Shell]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **Command Injection** es como meterle comandos al sistema desde un input web y lograr que los ejecute como si fueras el admin 😼💻  
