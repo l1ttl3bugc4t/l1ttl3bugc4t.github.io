@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "Bind vs Reverse Shells: Duelos en la terminal del inframundo 🕳️🐚"
 author: "l1ttl3bugc4t"
 date: "2025-06-16"
