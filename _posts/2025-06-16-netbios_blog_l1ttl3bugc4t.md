@@ -1,10 +1,10 @@
-
 ---
+layout: post
 title: "NetBIOS: El protocolo viejito pero todavía peligroso"
 author: "l1ttl3bugc4t"
-date: "2025-05-12"
+date: "2025-06-16"
 tags: [NetBIOS, Red Team, Pentesting, Enumeración, Windows, Seguridad en Red]
-categories: [Cuaderno, Red Team & Chill, CyberChallenges]
+categories: [cuaderno, Red Team & Chill, CyberChallenges]
 ---
 
 **NetBIOS** (Network Basic Input/Output System) es uno de esos protocolos que parecen inofensivos por su edad… pero que aún hoy pueden ser una mina de información 🧠💣
