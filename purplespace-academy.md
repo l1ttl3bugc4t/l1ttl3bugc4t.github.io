@@ -15,7 +15,7 @@ Clases, recursos, retos y mucho más para iniciar en el mundo hacker… pero con
 ## 🎓 Accede al Panel Interactivo
 
 <div style="margin: 2rem 0;">
-  <iframe src="https://view.genially.com/687d8855e193431103c87a50/interactive-content-panel-ihfe-purplespace-academy"
+  <iframe src="https://view.genially.com/687d8855e193431103c87a50"
           width="100%" 
           height="600"
           frameborder="0"
